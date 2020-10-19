@@ -3,9 +3,10 @@ body{
 }
 
 .titreshop {
-    line-height : 3em;
+    
     font-weight: bold;
-    text-transform: uppercase;
+    font-style: italic;
+    
 }
 .para{
     margin-bottom: 5em;
@@ -16,20 +17,41 @@ body{
 }
 .card-title{
     text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    ;
 }
 
 .card-text{
     text-align: right;
+    font-size: 14px;
+    font-style: italic;
+    color: #4F5B40
 }
 
-.card{
+.cardshop{
     width: 80%;
     padding: 0%;
     margin: 0%;
+    margin-bottom: 8%;
     border-color:#DDD9C9;
     box-shadow:  10px 3px 20px #DDD9C9;
 }
+.row{
+    margin:2em;
+}
 
-.col-md-3{
-    padding: 3%;
+
+.card-img-top{
+    width: 65%;
+    text-align: center;
+    margin:auto;
+}
+
+.jumbotron{
+    background-color: #DDD9C9;
+    font-size: 40%;
+    position: relative;
+    background-size: cover;
+    
 }
