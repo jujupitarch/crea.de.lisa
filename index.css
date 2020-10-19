@@ -1,0 +1,20 @@
+
+.crea{
+    font-size: 100%;
+    text-align: center;
+    font-weight: bold;
+    color: #49573B;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@media screen and (max-width: 769px) {
+    .crea{
+        font-size: 60%;
+    }
+}
+
+.cadre{
+    margin-bottom:8%;
+    padding: 0%;
+}

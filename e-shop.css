@@ -1,0 +1,35 @@
+body{
+    font-family:'Poppins', sans-serif;
+}
+
+.titreshop {
+    line-height : 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.para{
+    margin-bottom: 5em;
+}
+.btn-primary{
+    background-color: #DD470A;
+    border: #DD470A;
+}
+.card-title{
+    text-align: center;
+}
+
+.card-text{
+    text-align: right;
+}
+
+.card{
+    width: 80%;
+    padding: 0%;
+    margin: 0%;
+    border-color:#DDD9C9;
+    box-shadow:  10px 3px 20px #DDD9C9;
+}
+
+.col-md-3{
+    padding: 3%;
+}
