@@ -14,6 +14,7 @@ body{
 .btn-primary{
     background-color: #DD470A;
     border: #DD470A;
+    text-align: left;
 }
 .card-title{
     text-align: center;
@@ -29,6 +30,10 @@ body{
     color: #4F5B40
 }
 
+.card-body{
+    text-align: left;
+}
+
 .cardshop{
     width: 80%;
     padding: 0%;
@@ -36,16 +41,14 @@ body{
     margin-bottom: 8%;
     border-color:#DDD9C9;
     box-shadow:  10px 3px 20px #DDD9C9;
+    text-align: center;
 }
 .row{
     margin:2em;
 }
 
-
 .card-img-top{
     width: 65%;
-    text-align: center;
-    margin:auto;
 }
 
 .jumbotron{
@@ -53,5 +56,9 @@ body{
     font-size: 40%;
     position: relative;
     background-size: cover;
+    padding: 2em;
     
+}
+.etsy{
+    margin-bottom: 5em;
 }

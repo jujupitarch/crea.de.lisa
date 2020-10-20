@@ -9,9 +9,20 @@
     font-size: 20px;
 }
 
+h5>a{
+    color: #DC4813;
+    ;
+}
+
+h5>a:hover{
+    color: #D3880B;
+    ;
+}
+
 .jumbotron{
     margin-top: 5em;
     background-image: url(image/phrase-ok.jpg) ;
+    background-size: contain;
     background-repeat: no-repeat;
     text-align: center;
     

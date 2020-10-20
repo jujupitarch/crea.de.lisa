@@ -3,6 +3,21 @@ body{
 }
 
 .jumbotron{
-    background-color: #DDD9C9;
+    background-color: #D3880B;
+    padding: 2%;
+    color: white;
+    opacity: 90%;
+}
 
+.btn-primary{
+    background-color: #DC4813;
+    border: none;
+}
+
+.redirection{
+    color: #D7938B;
+}
+
+.redirection2{
+    color: #D3880B;
 }
