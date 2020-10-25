@@ -1,5 +1,5 @@
-#formulaire{
-    margin-top: 6em;
+.form-group{
+    margin-top: 2em;
     margin-bottom: 3em;
     margin-left: 10%;
     margin-right: 10%;
@@ -8,3 +8,8 @@
 .fin{
     margin-bottom: 10em;
 }
+
+/*.bientot{
+    size: 20%;
+}
+*/

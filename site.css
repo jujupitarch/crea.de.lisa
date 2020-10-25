@@ -1,6 +1,7 @@
 /* en-tête site  */
 header{
     font-family: 'Poppins', sans-serif;
+    
 }
 
 .navbar{
@@ -9,13 +10,16 @@ header{
 }
 
 #logo{
-    border-radius: 50%;
     margin-top: 10%;
     margin-left: 20%;
-    /*box-shadow:  10px 3px 20px #49573B;
+    /*
+    box-shadow:  10px 3px 20px #49573B;
+    
     margin-top: 20%;
     margin-left: 10%;
     */
+
+    
 }
 
 @media screen and (max-width: 769px) {
