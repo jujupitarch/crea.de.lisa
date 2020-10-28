@@ -24,7 +24,7 @@
         <div class="navbar-nav">
           <a class="nav-link" href="index.html">accueil</a>
           <a class="nav-link" href="a-propos.html">à propos</a>
-          <a class="nav-link" href="e-shop.html">e-shop</a>
+          <a class="nav-link" target="_blank" href="https://www.etsy.com/fr/shop/Creadelisaa">e-shop</a>
          <!-- <a class="nav-link" href="service.html">service</a> -->
          <a class="nav-link active" href="contact.html">contact</a>
         </div>
@@ -67,12 +67,29 @@
           <input id="texte" type="text" class="form-control" placeholder="Dites moi tout...">
         </div>
       </div>
-
+      <input type="submit" value="Envoyer le formulaire">
     </form>
 
     <p class="text-center bientot">
      À bientôt !!<br>
     </p>
+
+
+
+    <form id="contact" method="post" action="contact.php">
+      <fieldset><legend>Vos coordonnées</legend>
+        <p><label for="nom">Nom :</label><input type="text" id="nom" name="nom" /></p>
+        <p><label for="email">Email :</label><input type="text" id="email" name="email" /></p>
+      </fieldset>
+     
+      <fieldset><legend>Votre message :</legend>
+        <p><label for="objet">Objet :</label><input type="text" id="objet" name="objet" /></p>
+        <p><label for="message">Message :</label><textarea id="message" name="message" cols="30" rows="8"></textarea></p>
+      </fieldset>
+     
+      <div style="text-align:center;"><input type="submit" name="envoi" value="Envoyer le formulaire !" /></div>
+    </form>
+
 
   </main>
 
