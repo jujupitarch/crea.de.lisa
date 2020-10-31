@@ -8,9 +8,18 @@
     margin-bottom: 3em;
     font-size: 20px;
 }
+h4{
+line-height : 50px;
+}
 
+a{
+    color: #D4968C;
+    font-weight: bold;
+}
 
-
+a:hover {
+    color:  #D4968C;
+    }
 
 .jumbotron{
     margin-top: 5em;
