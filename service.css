@@ -1,12 +1,36 @@
 body{
     font-family: 'Poppins', sans-serif;
+
+}
+.figure-caption{
+    margin : 10%;
+    margin-top: 0%;
+    text-align: justify;
+    
+}
+.bapt {
+    width: 40%;
+    height: auto;
+    margin: 2%;
+    
+}
+h5{
+    text-align: center;
 }
 
-.jumbotron{
-    background-color: #D3880B;
-    padding: 2%;
-    color: white;
-    opacity: 90%;
+.crea{
+    font-size: 100%;
+    text-align: center;
+    font-weight: bold;
+    color: #49573B;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 5%;
+}
+@media screen and (max-width: 769px) {
+    .crea{
+        font-size: 60%;
+
+    }
 }
 
 .btn-primary{

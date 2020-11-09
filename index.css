@@ -18,7 +18,9 @@
     margin-bottom:8%;
     padding: 0%;
 }
-
+.feuille{
+    border: 2px #49573B solid ;
+}
 .actu{
     font-size: 100%;
     text-align: center;
