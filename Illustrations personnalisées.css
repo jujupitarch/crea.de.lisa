@@ -2,25 +2,6 @@ body{
     font-family: 'Poppins', sans-serif;
 
 }
-.figure-caption{
-    margin : 10%;
-    margin-top: 0%;
-    text-align: justify;
-    font-size: medium;
-    
-}
-.bapt {
-    width: 40%;
-    height: auto;
-    margin: 4%;  
-}
-
-.t-shirt {
-    width: 65%;
-}
-h5{
-    text-align: center;
-}
 
 .crea{
     font-size: 100%;
