@@ -11,6 +11,70 @@ body{
     font-family: 'Poppins', sans-serif;
     margin-bottom: 2%;
 }
+
+.bouton{
+    background-color: #D3958B;
+    border: none;
+}
+
+.bouton:hover{
+    background-color: #DC4813;
+}
+.comment{
+    margin-left: 50px;
+    margin-top:20px;
+    color: #DC4813;
+}
+
+.flo{
+    margin: 25%;
+}
+
+.numero{
+    padding-top: 75%;
+    padding-left: 10px;
+}
+
+.numero3{
+    padding-top: 40%;
+    padding-left: 10px;
+}
+
+.liste{
+    font-size: 100%;
+}
+
+li{
+    list-style-type: none;
+}
+
+#formule{
+    text-transform: capitalize;
+}
+
+#formulebg{
+    background-color: #dcdac9;
+    background-size: 100%;
+    padding: 20px;
+
+}
+
+.pb-5{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#nb{
+    font-size: 1rem;
+    margin-left: 50px;
+    margin-right: 40px;
+    margin-top: 40px;
+    
+}
+#galerie{
+    margin-top: 80px;
+}
+
 @media screen and (max-width: 769px) {
     .crea{
         font-size: 60%;
