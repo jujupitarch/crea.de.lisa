@@ -12,9 +12,14 @@ body{
     margin-bottom: 2%;
 }
 
+.menubtn{
+margin: 30px;
+text-align: center;
+}
 .bouton{
     background-color: #D3958B;
     border: none;
+    margin: 2px;
 }
 
 .bouton:hover{
@@ -24,6 +29,22 @@ body{
     margin-left: 50px;
     margin-top:20px;
     color: #DC4813;
+}
+
+.justifier{
+    text-align: justify;
+  text-justify: inter-word;
+}
+.petit{
+    font-size: small;
+}
+
+.lien{
+    color: #CE8B0B;
+}
+
+.lien:hover{
+    color:#D45115;
 }
 
 .flo{

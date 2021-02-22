@@ -30,7 +30,18 @@
 
  .boutique{
      background-color: #DCDAC9;
-     margin-left: -15px;
-     margin-right: -15px;
-     padding: 0;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     padding-left: -15px;
+     padding-right: -15px;
  }   
+
+ 
+ .btnetsy{
+    background-color: #D3958B;
+    border: none;
+}
+
+.btnetsy:hover{
+    background-color: #DC4813;
+}
