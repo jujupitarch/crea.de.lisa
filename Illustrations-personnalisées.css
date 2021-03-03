@@ -121,7 +121,7 @@ li{
   
   /* Hide the images by default */
   .mySlides {
-    display: none;
+    text-align: center;
   }
   
   /* Add a pointer when hovering over the thumbnail images */
@@ -163,10 +163,10 @@ li{
     color: black;
     font-size: 12px;
     padding: 20px 12px;
-    position: absolute;
     top: 0;
     margin-left: auto;
     margin-right: auto;
+
   }
   
   /* Container for image text */
@@ -192,6 +192,8 @@ li{
   /* Add a transparency effect for thumnbail images */
   .demo {
     opacity: 0.6;
+    padding: 4px;
+    height: auto;
   }
   
   .active,
