@@ -62,7 +62,7 @@
             
             <img src="image/ecriture_logo_rouge_Plan de travail 1.png" alt="créadelisa" style="width:40%; height:auto" class="d-block "/>
 
-            <p class="mb-3">En plus de mes créations, je vous propose la réalisation d’<strong>illustrations personnalisés </strong> ! À partir d’une
+            <p class="mb-3">En plus de mes créations, je vous propose la réalisation d’<strong>illustrations personnalisées </strong> ! À partir d’une
               photo personnelle de votre choix, d’un temps de réflexion ensemble, je reproduis votre photo de
               manière illustré comme celle que vous voyez ici. Un portrait, une photo de famille, votre animal de
               compagnie ou un objet important à vos yeux, tout est possible et réalisable ! </p>
@@ -173,25 +173,183 @@
         </div>
   
         
-      <div class="container">
-        <div class="row">
-          <div class="text-center mx-auto col-md-12" id="galerie">
-            <h2>Galerie illustration</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 p-3"> <img class="img-fluid d-block" src="image/Illu_Tess_V3_Plan de travail 1.jpg"> </div>
-          <div class="col-md-4 p-3"> <img class="img-fluid d-block" src="image/illu_bap_simple_V2_A5.png"> </div>
-          <div class="col-md-4 p-3"> <img class="img-fluid d-block" src="image/Illu_J_V2.jpg"> </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-6 p-3"> <img class="img-fluid d-block" src="image/Illustration_Louis_V3_Plan de travail 1.jpg"> </div>
-          <div class="col-6 p-3"> <img class="img-fluid d-block" src="image/Luc_Porshe_V2_Plan de travail 1.jpg"> </div>
-        </div>
-      </div>
+  
+           
 
+
+
+      <!-- slidshowgalery-->
+
+      <!-- Container for the image gallery -->
+<div class="container gal">
+
+  <h2 class="text-center">Galerie illustration</h2>
+
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+      <img src="image/illu_bap_simple_V2_A5.png" style="width:70%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+      <img src="image/Illu_J_V2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+      <img src="image/Illu_Tess_V3_Plan de travail 1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+      <img src="image/Illustration_Florian_VOK_Plan de travail 1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+      <img src="image/Illustration_Louis_V3_Plan de travail 1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img src="image/Luc_Porshe_V2_Plan de travail 1.jpg" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="image/illu_bap_simple_V2_A5.png" style="width:100%" onclick="currentSlide(1)" alt="Exemple d'illustration réalisées">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="image/Illu_J_V2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Exemple d'illustration réalisées">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="image/Illu_Tess_V3_Plan de travail 1.jpg" style="width:100%" onclick="currentSlide(3)" alt="Exemple d'illustration réalisées">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="image/Illustration_Florian_VOK_Plan de travail 1.jpg" style="width:100%" onclick="currentSlide(4)" alt="Exemple d'illustration réalisées">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="image/Illustration_Louis_V3_Plan de travail 1.jpg" style="width:100%" onclick="currentSlide(5)" alt="Exemple d'illustration réalisées">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="image/Luc_Porshe_V2_Plan de travail 1.jpg" style="width:100%" onclick="currentSlide(6)" alt="Exemple d'illustration réalisées">
+    </div>
+  </div>
+</div>
+
+<script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    var captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+  </script>
+
+      <h3 class="table" id="tarifs">Tableaux Tarifaire </h3>
+      <table>
+        <caption>Voici les tarifs pour une illustration en couleurs</caption>
+
+        <tr>
+          <th>illustration couleur</th>
+          <th> Numérique</th>
+          <th>imprimer</th>
+          <th>Encadrée</th>
+        </tr>
+    
+        <tr>
+          <td> A5</td>
+          <td>90€</td>
+          <td>98€</td>
+          <td>120€</td>
+        </tr>
+    
+        <tr>
+          <td> A4</td>
+          <td>90€</td>
+          <td>100€</td>
+          <td>130€</td>
+        </tr>
+    
+        <tr>
+          <td> A3</td>
+          <td>90€</td>
+          <td>104€</td>
+          <td>140€</td>
+        </tr>
+        <caption class="note">Ces tarifs sont valables pour des reproductions de 3 personnages max,
+          au delà je déterminerai le tarif en fonction du projet</caption>
+      </table>
+
+  <table>
+    <caption>Voici les tarifs pour une illustration en noir et blanc</caption>
+    
+    <tr>
+      <th>illustration couleur</th>
+      <th> Numérique</th>
+      <th>imprimer</th>
+      <th>Encadrée</th>
+    </tr>
+
+    <tr>
+      <td> A5</td>
+      <td>30€</td>
+      <td>38€</td>
+      <td>60€</td>
+    </tr>
+
+    <tr>
+      <td> A4</td>
+      <td>30€</td>
+      <td>40€</td>
+      <td>70€</td>
+    </tr>
+
+    <tr>
+      <td> A3</td>
+      <td>30€</td>
+      <td>44€</td>
+      <td>80€</td>
+    </tr>
+
+    <caption class="note">Ces tarifs sont valables pour des reproductions de 3 personnages max,
+      au delà je déterminerai le tarif en fonction du projet</caption>
+
+    </table>
+      
 
       <footer class=pied-de-page>
 
